@@ -1,0 +1,11 @@
+
+
+
+<project name="robocode.api" default="package" basedir=".">
+
+
+  <target name="help">
+    <echo message="Please run: $ant -projecthelp"/>
+  </target>
+
+</project>
