@@ -1,8 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
 
+    Copyright (c) 2001-2020 Mathew A. Nelson and Robocode contributors
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v1.0
+    which accompanies this distribution, and is available at
+    https://robocode.sourceforge.io/license/epl-v10.html
 
+-->
 
-<project name="robocode.api" default="package" basedir=".">
+<!-- ====================================================================== -->
+<!-- Ant build file (http://ant.apache.org/) for Ant 1.6.2 or above.        -->
+<!-- ====================================================================== -->
 
+<project name="robocode" default="package" basedir=".">
+
+  <!-- ====================================================================== -->
+  <!-- Import maven-build.xml into the current project                        -->
+  <!-- ====================================================================== -->
+
+  <import file="maven-build.xml"/>
+  
+  <!-- ====================================================================== -->
+  <!-- Help target                                                            -->
+  <!-- ====================================================================== -->
 
   <target name="help">
     <echo message="Please run: $ant -projecthelp"/>
